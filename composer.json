@@ -1,0 +1,38 @@
+{
+    "name": "dro/yii2-notification",
+
+    "type": "yii2-extension",
+
+    "description": "Notification module",
+    "keywords": ["yii2", "notification"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/drodata/yii2-notification/issues",
+        "source": "https://github.com/drodata/yii2-notification"
+    },
+    "authors": [
+        {
+            "name": "drodata",
+            "email": "drodata@foxmail.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "~2.0",
+    },
+
+    "autoload": {
+        "psr-4": {
+            "dro\\notification": ""
+        }
+    },
+	"extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
