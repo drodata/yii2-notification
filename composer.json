@@ -23,7 +23,7 @@
 
     "autoload": {
         "psr-4": {
-            "dro\\notification": ""
+            "dro\\notification\\": ""
         }
     },
 	"extra": {
